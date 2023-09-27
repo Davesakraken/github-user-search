@@ -1,10 +1,10 @@
-import { Welcome } from '../components/Welcome/Welcome';
+import SearchBar from '../components/SearchBar/SearchBar';
 import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
+      <SearchBar />
       <ColorSchemeToggle />
     </>
   );
